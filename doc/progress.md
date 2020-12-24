@@ -33,7 +33,7 @@ If a specific package has no status set, assume POC.
  - POC: golang-github-hinshun-vt10x
  - POC: golang-github-jamiealquiza-tachymeter
  - POC: golang-github-logrusorgru-grokky
- - POC: golang-github-mohae-deepcopy
+ - NEW: golang-github-mohae-deepcopy
  - POC: golang-github-netflix-go-expect
  - POC: golang-github-nxadm-tail
  - POC: golang-github-prometheus-prom2json
