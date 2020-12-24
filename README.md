@@ -6,8 +6,8 @@ led by [DEBAMAX](https://debamax.com/) in coordination with crowdsec
 upstream.
 
 Main resources for now:
- - [progress tracking](doc/progress): a number of packages have to be
+ - [progress tracking](doc/progress.md): a number of packages have to be
    introduced into Debian, and some existing ones need an update.
- - [schroot setup](doc/schroot-setup): a
+ - [schroot setup](doc/schroot-setup.md): a
    [schroot](https://manpages.debian.org/buster/schroot/schroot) crash
    course for developers.
