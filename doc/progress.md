@@ -68,3 +68,26 @@ For this set of packages:
 to be introduced. Shengjing Zhu is aware of the will to update these
 packages, and also spotted the need for new packages. `ratt ` will be
 more useful here than it will be for the previous set of packages.
+
+Using a prospective binary for `golang-github-gin-gonic-gin` (needing
+more work, e.g. the source repack wasn't looked at), and feeing it to
+`ratt` with a `sid` schroot configuration pointing at the custom
+`devel-gin` repository containing the new dependencies, 35 packages
+were determined as needing a rebuild. Only 3 failed, and RC bug
+reports seem to exist for each of them:
+
+ - consul 1.0.7~dfsg1-5
+    + #964873 (FTBFS; supposed to be fixed, apparently not).
+ - rkt 1.30.0+dfsg1-9
+    + #964871
+ - singularity-container 3.5.2+ds1-1
+    + Not updated in a 1+ year
+    + Several grave security bugs
+
+Further tasks:
+
+ - reproduce the FTBFS in a clean sid chroot (without any custom
+   repository), and open/update/reopen as needed.
+ - rerun `ratt` once `golang-github-gin-gonic-gin` has been cleaned up
+   (even if all the new dependencies aren't cleaned up), to ensure
+   repacking the source tarball doesn't trigger other side effects.
