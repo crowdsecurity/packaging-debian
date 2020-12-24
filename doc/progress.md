@@ -25,7 +25,7 @@ If a specific package has no status set, assume POC.
  - ASK: golang-github-denisbrodbeck-machineid
     + Maybe can be replaced by a direct read from `/etc/machine-id` in
       the `crowdsec` package, e.g. through a Debian-specific patch.
- - POC: golang-github-enescakir-emoji
+ - NEW: golang-github-enescakir-emoji
  - POC: golang-github-facebook-ent
  - POC: golang-github-go-co-op-gocron
  - POC: golang-github-goombaio-namegenerator
