@@ -19,8 +19,9 @@ If a specific package has no status set, assume POC.
     + golang-github-hinshun-vt10x
     + golang-github-netflix-go-expect
  - NEW: golang-github-antonmedv-expr
- - POC: golang-github-appleboy-gin-jwt
- - POC: golang-github-appleboy-gofight
+ - DEP: golang-github-appleboy-gin-jwt
+    + Updated golang-github-gin-gonic-gin (see below)
+ - ITP: golang-github-appleboy-gofight
  - POC: golang-github-denisbrodbeck-machineid
  - POC: golang-github-enescakir-emoji
  - POC: golang-github-facebook-ent
