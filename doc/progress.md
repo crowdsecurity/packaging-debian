@@ -2,35 +2,38 @@
 
 For all dependencies, status can be one of these:
  - POC: proof-of-concept packaging, to be cleaned
+ - DEP: depends on other packages
  - ITP: cleaned-up happened enough for an ITP to be filed with a proper description
  - NEW: packaging was pushed to salsa, package was uploaded
  - ASK: some specific questions need an answer from the team or from upstream
- - REJECT: more work to be done
- - ACCEPT: package was accepted into the archive
+ - REJ: more work to be done
+ - ACC: package was accepted into the archive
 
 If a specific package has no status set, assume POC.
 
 
 ## New packages
 
- - crowdsec
- - golang-github-alecaivazis-survey
- - golang-github-antonmedv-expr
- - golang-github-appleboy-gin-jwt
- - golang-github-appleboy-gofight
- - golang-github-denisbrodbeck-machineid
- - golang-github-enescakir-emoji
- - golang-github-facebook-ent
- - golang-github-go-co-op-gocron
- - golang-github-goombaio-namegenerator
- - golang-github-go-openapi-inflect
- - golang-github-hinshun-vt10x
- - golang-github-jamiealquiza-tachymeter
- - golang-github-logrusorgru-grokky
- - golang-github-mohae-deepcopy
- - golang-github-netflix-go-expect
- - golang-github-nxadm-tail
- - golang-github-prometheus-prom2json
+ - POC: crowdsec
+ - DEP: golang-github-alecaivazis-survey
+    + golang-github-hinshun-vt10x
+    + golang-github-netflix-go-expect
+ - ITP: golang-github-antonmedv-expr
+ - POC: golang-github-appleboy-gin-jwt
+ - POC: golang-github-appleboy-gofight
+ - POC: golang-github-denisbrodbeck-machineid
+ - POC: golang-github-enescakir-emoji
+ - POC: golang-github-facebook-ent
+ - POC: golang-github-go-co-op-gocron
+ - POC: golang-github-goombaio-namegenerator
+ - POC: golang-github-go-openapi-inflect
+ - POC: golang-github-hinshun-vt10x
+ - POC: golang-github-jamiealquiza-tachymeter
+ - POC: golang-github-logrusorgru-grokky
+ - POC: golang-github-mohae-deepcopy
+ - POC: golang-github-netflix-go-expect
+ - POC: golang-github-nxadm-tail
+ - POC: golang-github-prometheus-prom2json
 
 
 ## Updated packages, apparently easy
