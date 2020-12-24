@@ -32,7 +32,10 @@ If a specific package has no status set, assume POC.
  - POC: golang-github-go-openapi-inflect
  - POC: golang-github-hinshun-vt10x
  - POC: golang-github-jamiealquiza-tachymeter
- - POC: golang-github-logrusorgru-grokky
+ - ASK: golang-github-logrusorgru-grokky
+    + To ask the Debian Go Team: shipping `patterns*` through
+      `DH_GOLANG_INSTALL_EXTRA` does the job for the test suite, but
+      should test data also be shipped in the final binary?
  - NEW: golang-github-mohae-deepcopy
  - POC: golang-github-netflix-go-expect
  - POC: golang-github-nxadm-tail
