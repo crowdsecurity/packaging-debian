@@ -22,7 +22,9 @@ If a specific package has no status set, assume POC.
  - DEP: golang-github-appleboy-gin-jwt
     + Updated golang-github-gin-gonic-gin (see below)
  - ITP: golang-github-appleboy-gofight
- - POC: golang-github-denisbrodbeck-machineid
+ - ASK: golang-github-denisbrodbeck-machineid
+    + Maybe can be replaced by a direct read from `/etc/machine-id` in
+      the `crowdsec` package, e.g. through a Debian-specific patch.
  - POC: golang-github-enescakir-emoji
  - POC: golang-github-facebook-ent
  - POC: golang-github-go-co-op-gocron
