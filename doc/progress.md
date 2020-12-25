@@ -54,9 +54,9 @@ If a specific package has no status set, assume POC.
 ## Updated packages, apparently easy
 
 
- - golang-github-oschwald-maxminddb-golang
- - golang-github-oschwald-geoip2-golang
- - syncthing
+ - POC: golang-github-oschwald-maxminddb-golang
+ - POC: golang-github-oschwald-geoip2-golang
+ - POC: syncthing [see below, no actual work besides communication]
 
 For this set of packages:
  - The first two needs new upstream versions for `crowdsec` to have
@@ -69,12 +69,12 @@ For this set of packages:
 
 ## Updated packages, not so easy/work to be done
 
- - golang-github-gin-gonic-gin
- - golang-github-go-playground-assert
- - golang-github-go-playground-locales
- - golang-github-go-playground-universal-translator
- - golang-github-go-playground-validator
- - golang-github-leodido-go-urn
+ - POC: golang-github-gin-gonic-gin
+ - POC: golang-github-go-playground-assert
+ - POC: golang-github-go-playground-locales
+ - POC: golang-github-go-playground-universal-translator
+ - POC: golang-github-go-playground-validator
+ - POC: golang-github-leodido-go-urn
 
 **XXX:** Build the whole dependency tree, and account for new packages
 to be introduced. Shengjing Zhu is aware of the will to update these
