@@ -29,7 +29,12 @@ If a specific package has no status set, assume POC.
  - POC: golang-github-facebook-ent
  - POC: golang-github-go-co-op-gocron
  - POC: golang-github-goombaio-namegenerator
- - POC: golang-github-go-openapi-inflect
+ - ASK: golang-github-go-openapi-inflect
+    + Strange tag situation upstream:
+       - https://github.com/go-openapi/inflect/issues/2
+    + Close to no metadata, leading to no meaningful descriptions,
+      which is a blocker for a proper ITP:
+       - https://github.com/go-openapi/inflect/issues/3
  - DEP: golang-github-hinshun-vt10x
     + golang-github-netflix-go-expect
  - NEW: golang-github-jamiealquiza-tachymeter
