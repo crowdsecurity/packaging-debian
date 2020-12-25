@@ -71,16 +71,21 @@ For this set of packages:
 
  - POC: golang-github-gin-gonic-gin
     + DEP: golang-github-go-playground-validator
- - POC: golang-github-go-playground-assert
+ - ASK: golang-github-go-playground-assert
+    + go.mod has: github.com/go-playground/assert/v2
  - POC: golang-github-go-playground-locales
+    + This one is unversioned.
  - POC: golang-github-go-playground-universal-translator
+    + This one is unversioned.
  - ASK: golang-github-go-playground-validator
+    + go.mod has: github.com/go-playground/validator/v10
     + golang-gopkg-go-playground-validator.v8-dev exists
        - Should be investigated: remove it, replace it, let it be?
        - Check dependencies
        - Maybe throw ratt at it, trying to rebuild dependencies
          against the new package (that could temporarily provide the
          old one)
+    + Possible collision but different hosting sites, so not an issue.
     + DEP: golang-github-go-playground-assert
     + DEP: golang-github-go-playground-locales
     + DEP: golang-github-go-playground-universal-translator
@@ -101,11 +106,15 @@ reports seem to exist for each of them:
 
  - consul 1.0.7~dfsg1-5
     + #964873 (FTBFS; supposed to be fixed, apparently not).
+    + A clean build of consul_1.8.6+dfsg1-1.dsc.log in cowbuilder
+      looks good.
  - rkt 1.30.0+dfsg1-9
     + #964871
+    + Reproduced in a clean cowbuilder.
  - singularity-container 3.5.2+ds1-1
     + Not updated in a 1+ year
     + Several grave security bugs
+    + TODO: Unfiled FTBFS bug (reproduced in a clean cowbuilder).
 
 Further tasks:
 
