@@ -32,7 +32,7 @@ If a specific package has no status set, assume POC.
  - POC: golang-github-go-openapi-inflect
  - DEP: golang-github-hinshun-vt10x
     + golang-github-netflix-go-expect
- - ITP: golang-github-jamiealquiza-tachymeter
+ - NEW: golang-github-jamiealquiza-tachymeter
  - NEW: golang-github-logrusorgru-grokky
     + ASK the Debian Go Team:
        - Shipping `patterns*` through `DH_GOLANG_INSTALL_EXTRA` does
