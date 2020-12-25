@@ -70,6 +70,7 @@ For this set of packages:
 ## Updated packages, not so easy/work to be done
 
  - POC: golang-github-gin-gonic-gin
+    + DEP: golang-github-go-playground-validator
  - POC: golang-github-go-playground-assert
  - POC: golang-github-go-playground-locales
  - POC: golang-github-go-playground-universal-translator
@@ -80,6 +81,10 @@ For this set of packages:
        - Maybe throw ratt at it, trying to rebuild dependencies
          against the new package (that could temporarily provide the
          old one)
+    + DEP: golang-github-go-playground-assert
+    + DEP: golang-github-go-playground-locales
+    + DEP: golang-github-go-playground-universal-translator
+    + DEP: golang-github-leodido-go-urn-dev
  - POC: golang-github-leodido-go-urn
 
 **XXX:** Build the whole dependency tree, and account for new packages
