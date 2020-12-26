@@ -90,7 +90,7 @@ For this set of packages:
     + DEP: golang-github-go-playground-locales
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
- - ITP: golang-github-leodido-go-urn
+ - NEW: golang-github-leodido-go-urn
 
 **XXX:** Build the whole dependency tree, and account for new packages
 to be introduced. Shengjing Zhu is aware of the will to update these
