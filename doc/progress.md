@@ -73,7 +73,7 @@ For this set of packages:
     + DEP: golang-github-go-playground-validator
  - ASK: golang-github-go-playground-assert
     + go.mod has: github.com/go-playground/assert/v2
- - ITP: golang-github-go-playground-locales
+ - NEW: golang-github-go-playground-locales
     + This one is unversioned.
  - POC: golang-github-go-playground-universal-translator
     + This one is unversioned.
