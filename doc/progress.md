@@ -75,8 +75,9 @@ For this set of packages:
     + go.mod has: github.com/go-playground/assert/v2
  - NEW: golang-github-go-playground-locales
     + This one is unversioned.
- - POC: golang-github-go-playground-universal-translator
+ - NEW: golang-github-go-playground-universal-translator
     + This one is unversioned.
+    + DEP: golang-github-go-playground-locales
  - ASK: golang-github-go-playground-validator
     + go.mod has: github.com/go-playground/validator/v10
     + golang-gopkg-go-playground-validator.v8-dev exists
