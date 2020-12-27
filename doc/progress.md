@@ -71,6 +71,9 @@ For this set of packages:
 
  - POC: golang-github-gin-gonic-gin
     + DEP: golang-github-go-playground-validator(-v10)
+    + PENDING for review by Shengjing Zhu, and for NEW.
+    + Should be publishing clean packages in a more straightforward
+      manner.
  - ASK: golang-github-go-playground-assert
     + go.mod has: github.com/go-playground/assert/v2
     + PENDING for NEW
