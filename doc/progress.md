@@ -70,9 +70,10 @@ For this set of packages:
 ## Updated packages, not so easy/work to be done
 
  - POC: golang-github-gin-gonic-gin
-    + DEP: golang-github-go-playground-validator
+    + DEP: golang-github-go-playground-validator(-v10)
  - ASK: golang-github-go-playground-assert
     + go.mod has: github.com/go-playground/assert/v2
+    + PENDING for NEW
  - NEW: golang-github-go-playground-locales
     + This one is unversioned.
  - NEW: golang-github-go-playground-universal-translator
@@ -87,10 +88,11 @@ For this set of packages:
          against the new package (that could temporarily provide the
          old one)
     + Possible collision but different hosting sites, so not an issue.
-    + DEP: golang-github-go-playground-assert
+    + DEP: golang-github-go-playground-assert(-v2)
     + DEP: golang-github-go-playground-locales
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
+    + PENDING for NEW
  - NEW: golang-github-leodido-go-urn
 
 **XXX:** Build the whole dependency tree, and account for new packages
