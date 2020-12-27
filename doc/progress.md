@@ -77,6 +77,7 @@ For this set of packages:
  - ASK: golang-github-go-playground-assert
     + go.mod has: github.com/go-playground/assert/v2
     + PENDING for NEW
+    + Published in `work-in-progress` for now.
  - NEW: golang-github-go-playground-locales
     + This one is unversioned.
  - NEW: golang-github-go-playground-universal-translator
@@ -96,6 +97,7 @@ For this set of packages:
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
     + PENDING for NEW
+    + Published in `work-in-progress` for now.
  - NEW: golang-github-leodido-go-urn
 
 **XXX:** Build the whole dependency tree, and account for new packages
