@@ -74,10 +74,8 @@ For this set of packages:
     + PENDING for review by Shengjing Zhu, and for NEW.
     + Should be publishing clean packages in a more straightforward
       manner.
- - ASK: golang-github-go-playground-assert
+ - NEW: golang-github-go-playground-assert(-v2)
     + go.mod has: github.com/go-playground/assert/v2
-    + PENDING for NEW
-    + Published in `work-in-progress` for now.
  - NEW: golang-github-go-playground-locales
     + This one is unversioned.
  - NEW: golang-github-go-playground-universal-translator
