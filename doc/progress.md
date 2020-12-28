@@ -81,21 +81,14 @@ For this set of packages:
  - NEW: golang-github-go-playground-universal-translator
     + This one is unversioned.
     + DEP: golang-github-go-playground-locales
- - ASK: golang-github-go-playground-validator
+ - NEW: golang-github-go-playground-validator(-v10)
     + go.mod has: github.com/go-playground/validator/v10
     + golang-gopkg-go-playground-validator.v8-dev exists
        - Should be investigated: remove it, replace it, let it be?
-       - Check dependencies
-       - Maybe throw ratt at it, trying to rebuild dependencies
-         against the new package (that could temporarily provide the
-         old one)
-    + Possible collision but different hosting sites, so not an issue.
     + DEP: golang-github-go-playground-assert(-v2)
     + DEP: golang-github-go-playground-locales
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
-    + PENDING for NEW
-    + Published in `work-in-progress` for now.
  - NEW: golang-github-leodido-go-urn
 
 **XXX:** Build the whole dependency tree, and account for new packages
