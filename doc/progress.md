@@ -71,7 +71,8 @@ For this set of packages:
 
  - ASK: golang-github-gin-gonic-gin
     + DEP: golang-github-go-playground-validator(-v10)
-    + Review requested on the list.
+    + Review requested on the list:
+        https://lists.debian.org/debian-go/2020/12/msg00059.html
  - NEW: golang-github-go-playground-assert(-v2)
     + go.mod has: github.com/go-playground/assert/v2
  - NEW: golang-github-go-playground-locales
@@ -88,35 +89,3 @@ For this set of packages:
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
  - NEW: golang-github-leodido-go-urn
-
-**XXX:** Build the whole dependency tree, and account for new packages
-to be introduced. Shengjing Zhu is aware of the will to update these
-packages, and also spotted the need for new packages. `ratt ` will be
-more useful here than it will be for the previous set of packages.
-
-Using a prospective binary for `golang-github-gin-gonic-gin` (needing
-more work, e.g. the source repack wasn't looked at), and feeing it to
-`ratt` with a `sid` schroot configuration pointing at the custom
-`devel-gin` repository containing the new dependencies, 35 packages
-were determined as needing a rebuild. Only 3 failed, and RC bug
-reports seem to exist for each of them:
-
- - consul 1.0.7~dfsg1-5
-    + #964873 (FTBFS; supposed to be fixed, apparently not).
-    + A clean build of consul_1.8.6+dfsg1-1.dsc.log in cowbuilder
-      looks good.
- - rkt 1.30.0+dfsg1-9
-    + #964871
-    + Reproduced in a clean cowbuilder.
- - singularity-container 3.5.2+ds1-1
-    + Not updated in a 1+ year
-    + Several grave security bugs
-    + TODO: Unfiled FTBFS bug (reproduced in a clean cowbuilder).
-
-Further tasks:
-
- - reproduce the FTBFS in a clean sid chroot (without any custom
-   repository), and open/update/reopen as needed.
- - rerun `ratt` once `golang-github-gin-gonic-gin` has been cleaned up
-   (even if all the new dependencies aren't cleaned up), to ensure
-   repacking the source tarball doesn't trigger other side effects.
