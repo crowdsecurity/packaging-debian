@@ -51,7 +51,7 @@ If a specific package has no status set, assume POC.
  - POC: golang-github-prometheus-prom2json
 
 
-## Updated packages, apparently easy
+## Updated packages, GeoIP-oriented mini-stack
 
 
  - POC: golang-github-oschwald-maxminddb-golang
@@ -67,7 +67,7 @@ For this set of packages:
    heads-up to its maintainers anyway, just to be on the safe side.
 
 
-## Updated packages, not so easy/work to be done
+## Updated packages, golang-github-gin-gonic-gin stack
 
  - ASK: golang-github-gin-gonic-gin
     + DEP: golang-github-go-playground-validator(-v10)
