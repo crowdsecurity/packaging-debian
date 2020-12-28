@@ -8,6 +8,7 @@ For all dependencies, status can be one of these:
  - ASK: some specific questions need an answer from the team or from upstream
  - REJ: more work to be done
  - ACC: package was accepted into the archive
+ - SKP: skip!
 
 If a specific package has no status set, assume POC.
 
@@ -22,9 +23,8 @@ If a specific package has no status set, assume POC.
  - DEP: golang-github-appleboy-gin-jwt
     + Updated golang-github-gin-gonic-gin (see below)
  - NEW: golang-github-appleboy-gofight
- - ASK: golang-github-denisbrodbeck-machineid
-    + Maybe can be replaced by a direct read from `/etc/machine-id` in
-      the `crowdsec` package, e.g. through a Debian-specific patch.
+ - SKP: golang-github-denisbrodbeck-machineid
+    + Local override, to maintain through a Debian-specific patch.
  - NEW: golang-github-enescakir-emoji
  - POC: golang-github-facebook-ent
  - POC: golang-github-go-co-op-gocron
