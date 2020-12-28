@@ -69,11 +69,9 @@ For this set of packages:
 
 ## Updated packages, not so easy/work to be done
 
- - POC: golang-github-gin-gonic-gin
+ - ASK: golang-github-gin-gonic-gin
     + DEP: golang-github-go-playground-validator(-v10)
-    + PENDING for review by Shengjing Zhu, and for NEW.
-    + Should be publishing clean packages in a more straightforward
-      manner.
+    + Review requested on the list.
  - NEW: golang-github-go-playground-assert(-v2)
     + go.mod has: github.com/go-playground/assert/v2
  - NEW: golang-github-go-playground-locales
