@@ -39,12 +39,6 @@ If a specific package has no status set, assume POC.
     + golang-github-netflix-go-expect
  - NEW: golang-github-jamiealquiza-tachymeter
  - NEW: golang-github-logrusorgru-grokky
-    + ASK the Debian Go Team:
-       - Shipping `patterns*` through `DH_GOLANG_INSTALL_EXTRA` does
-         the job for the test suite, but should test data also be
-         shipped in the final binary?
-       - Data point: there are a number of similar things in existing
-         packages.
  - NEW: golang-github-mohae-deepcopy
  - POC: golang-github-netflix-go-expect
  - POC: golang-github-nxadm-tail
