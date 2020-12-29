@@ -47,16 +47,8 @@ If a specific package has no status set, assume POC.
 
 ## Updated packages, GeoIP-oriented mini-stack
 
-
- - ASK: golang-github-oschwald-maxminddb-golang
- - ASK: golang-github-oschwald-geoip2-golang
-
-For this set of packages:
- - New upstream versions are needed for `crowdsec` to have all
-   required features.
- - Only reverse dependency: `syncthing` is fine.
- - Review was requested on the list:
-     https://lists.debian.org/debian-go/2020/12/msg00060.html
+ - ACC: golang-github-oschwald-maxminddb-golang
+ - ACC: golang-github-oschwald-geoip2-golang
 
 
 ## Updated packages, golang-github-gin-gonic-gin stack
