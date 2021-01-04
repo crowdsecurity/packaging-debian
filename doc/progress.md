@@ -16,7 +16,7 @@ If a specific package has no status set, assume POC.
 ## New packages
 
  - POC: crowdsec
- - ITP: golang-github-alecaivazis-survey
+ - NEW: golang-github-alecaivazis-survey
  - NEW: golang-github-antonmedv-expr
  - DEP: golang-github-appleboy-gin-jwt
     + Updated golang-github-gin-gonic-gin (see below)
