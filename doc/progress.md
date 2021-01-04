@@ -41,7 +41,7 @@ If a specific package has no status set, assume POC.
  - NEW: golang-github-logrusorgru-grokky
  - NEW: golang-github-mohae-deepcopy
  - POC: golang-github-netflix-go-expect
- - POC: golang-github-nxadm-tail
+ - NEW: golang-github-nxadm-tail
  - POC: golang-github-prometheus-prom2json
 
 
@@ -81,3 +81,12 @@ Maybe adopt packages from Alexandre Viau:
 
  - #940405: golang-github-oschwald-geoip2-golang
  - #940406: golang-github-oschwald-maxminddb-golang
+
+Maybe clean this up some more:
+
+ - golang-github-nxadm-tail: the cmd and vendor exclusion works fine
+   for the final binary, but when building from a checkout, files are
+   still copied to the build directory. This is strange, but shouldn't
+   be an issue for builds from a source package (e.g. on Debian
+   buildds). Note: excluding gopaths instead of local directories
+   seems to work fine.
