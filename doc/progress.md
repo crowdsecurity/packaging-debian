@@ -90,3 +90,5 @@ Maybe clean this up some more:
    be an issue for builds from a source package (e.g. on Debian
    buildds). Note: excluding gopaths instead of local directories
    seems to work fine.
+ - Actually, this should be solved by removing offending files
+   altogether, see: https://github.com/Debian/dh-make-golang/issues/151
