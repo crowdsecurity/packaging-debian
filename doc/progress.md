@@ -35,12 +35,12 @@ If a specific package has no status set, assume POC.
     + Close to no metadata, leading to no meaningful descriptions,
       which is a blocker for a proper ITP:
        - https://github.com/go-openapi/inflect/issues/3
- - DEP: golang-github-hinshun-vt10x
+ - ITP: golang-github-hinshun-vt10x
     + golang-github-netflix-go-expect
  - NEW: golang-github-jamiealquiza-tachymeter
  - NEW: golang-github-logrusorgru-grokky
  - NEW: golang-github-mohae-deepcopy
- - POC: golang-github-netflix-go-expect
+ - NEW: golang-github-netflix-go-expect
  - NEW: golang-github-nxadm-tail
  - POC: golang-github-prometheus-prom2json
 
