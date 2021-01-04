@@ -73,3 +73,11 @@ If a specific package has no status set, assume POC.
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
  - NEW: golang-github-leodido-go-urn
+
+
+## Further tasks
+
+Maybe adopt packages from Alexandre Viau:
+
+ - #940405: golang-github-oschwald-geoip2-golang
+ - #940406: golang-github-oschwald-maxminddb-golang
