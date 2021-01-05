@@ -41,7 +41,7 @@ If a specific package has no status set, assume POC.
  - ACC: golang-github-mohae-deepcopy
  - NEW: golang-github-netflix-go-expect
  - NEW: golang-github-nxadm-tail
- - POC: golang-github-prometheus-prom2json
+ - NEw: golang-github-prometheus-prom2json
 
 
 ## Updated packages, GeoIP-oriented mini-stack
