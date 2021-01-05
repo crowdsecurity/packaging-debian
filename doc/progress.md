@@ -17,13 +17,13 @@ If a specific package has no status set, assume POC.
 
  - POC: crowdsec
  - NEW: golang-github-alecaivazis-survey
- - NEW: golang-github-antonmedv-expr
+ - ACC: golang-github-antonmedv-expr
  - DEP: golang-github-appleboy-gin-jwt
     + Updated golang-github-gin-gonic-gin (see below)
- - NEW: golang-github-appleboy-gofight
+ - ACC: golang-github-appleboy-gofight
  - SKP: golang-github-denisbrodbeck-machineid
     + Local override, to maintain through a Debian-specific patch.
- - NEW: golang-github-enescakir-emoji
+ - ACC: golang-github-enescakir-emoji
  - DEP: golang-github-facebook-ent
     + golang-github-go-openapi-inflect
  - ITP: golang-github-go-co-op-gocron
@@ -35,9 +35,9 @@ If a specific package has no status set, assume POC.
       which is a blocker for a proper ITP:
        - https://github.com/go-openapi/inflect/issues/3
  - NEW: golang-github-hinshun-vt10x
- - NEW: golang-github-jamiealquiza-tachymeter
- - NEW: golang-github-logrusorgru-grokky
- - NEW: golang-github-mohae-deepcopy
+ - ACC: golang-github-jamiealquiza-tachymeter
+ - ACC: golang-github-logrusorgru-grokky
+ - ACC: golang-github-mohae-deepcopy
  - NEW: golang-github-netflix-go-expect
  - NEW: golang-github-nxadm-tail
  - POC: golang-github-prometheus-prom2json
@@ -55,14 +55,14 @@ If a specific package has no status set, assume POC.
     + DEP: golang-github-go-playground-validator(-v10)
     + Review requested on the list:
         https://lists.debian.org/debian-go/2020/12/msg00059.html
- - NEW: golang-github-go-playground-assert(-v2)
+ - ACC: golang-github-go-playground-assert(-v2)
     + go.mod has: github.com/go-playground/assert/v2
- - NEW: golang-github-go-playground-locales
+ - ACC: golang-github-go-playground-locales
     + This one is unversioned.
  - NEW: golang-github-go-playground-universal-translator
     + This one is unversioned.
     + DEP: golang-github-go-playground-locales
- - NEW: golang-github-go-playground-validator(-v10)
+ - ACC: golang-github-go-playground-validator(-v10)
     + go.mod has: github.com/go-playground/validator/v10
     + golang-gopkg-go-playground-validator.v8-dev exists
        - Should be investigated: remove it, replace it, let it be?
@@ -70,7 +70,7 @@ If a specific package has no status set, assume POC.
     + DEP: golang-github-go-playground-locales
     + DEP: golang-github-go-playground-universal-translator
     + DEP: golang-github-leodido-go-urn-dev
- - NEW: golang-github-leodido-go-urn
+ - ACC: golang-github-leodido-go-urn
 
 
 ## Further tasks
