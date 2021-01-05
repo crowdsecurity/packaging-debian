@@ -93,3 +93,8 @@ Maybe clean this up some more:
    seems to work fine.
  - Actually, this should be solved by removing offending files
    altogether, see: https://github.com/Debian/dh-make-golang/issues/151
+
+Maybe ship binary packages for end-user commands:
+
+ - prom2json could be useful (mentioned in the ITP), from the
+   golang-github-prometheus-prom2json package.
