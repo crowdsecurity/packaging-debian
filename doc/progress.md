@@ -18,7 +18,7 @@ If a specific package has no status set, assume POC.
  - POC: crowdsec
  - NEW: golang-github-alecaivazis-survey
  - ACC: golang-github-antonmedv-expr
- - DEP: golang-github-appleboy-gin-jwt
+ - NEW: golang-github-appleboy-gin-jwt
     + Updated golang-github-gin-gonic-gin (see below)
  - ACC: golang-github-appleboy-gofight
  - SKP: golang-github-denisbrodbeck-machineid
@@ -56,6 +56,8 @@ If a specific package has no status set, assume POC.
     + DEP: golang-github-go-playground-validator(-v10)
     + Review requested on the list:
         https://lists.debian.org/debian-go/2020/12/msg00059.html
+    + Review is fine, currently waiting on a single package in NEW to
+      make validator installable: universal-translator.
  - ACC: golang-github-go-playground-assert(-v2)
     + go.mod has: github.com/go-playground/assert/v2
  - ACC: golang-github-go-playground-locales
