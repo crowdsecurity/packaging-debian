@@ -26,7 +26,7 @@ If a specific package has no status set, assume POC.
  - ACC: golang-github-enescakir-emoji
  - DEP: golang-github-facebook-ent
     + golang-github-go-openapi-inflect
- - ITP: golang-github-go-co-op-gocron
+ - NEW: golang-github-go-co-op-gocron
  - POC: golang-github-goombaio-namegenerator
  - ASK: golang-github-go-openapi-inflect
     + Strange tag situation upstream:
