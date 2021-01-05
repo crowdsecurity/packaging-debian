@@ -24,8 +24,9 @@ If a specific package has no status set, assume POC.
  - SKP: golang-github-denisbrodbeck-machineid
     + Local override, to maintain through a Debian-specific patch.
  - NEW: golang-github-enescakir-emoji
- - POC: golang-github-facebook-ent
- - POC: golang-github-go-co-op-gocron
+ - DEP: golang-github-facebook-ent
+    + golang-github-go-openapi-inflect
+ - ITP: golang-github-go-co-op-gocron
  - POC: golang-github-goombaio-namegenerator
  - ASK: golang-github-go-openapi-inflect
     + Strange tag situation upstream:
