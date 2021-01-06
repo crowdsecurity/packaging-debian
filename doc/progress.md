@@ -28,11 +28,11 @@ If a specific package has no status set, assume POC.
     + golang-github-go-openapi-inflect
  - NEW: golang-github-go-co-op-gocron
  - NEW: golang-github-goombaio-namegenerator
- - ITP: golang-github-go-openapi-inflect
+ - NEW: golang-github-go-openapi-inflect
     + Strange tag situation upstream:
        - https://github.com/go-openapi/inflect/issues/2
     + Close to no metadata, leading to no meaningful descriptions,
-      which is a blocker for a proper ITP:
+      which was a blocker for a proper ITP:
        - https://github.com/go-openapi/inflect/issues/3
     + Crowdsec proposed descriptions at least for the Debian side.
  - NEW: golang-github-hinshun-vt10x
