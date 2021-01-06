@@ -24,7 +24,7 @@ If a specific package has no status set, assume POC.
  - SKP: golang-github-denisbrodbeck-machineid
     + Local override, to maintain through a Debian-specific patch.
  - ACC: golang-github-enescakir-emoji
- - DEP: golang-github-facebook-ent
+ - NEW: golang-github-facebook-ent
     + golang-github-go-openapi-inflect
  - NEW: golang-github-go-co-op-gocron
  - NEW: golang-github-goombaio-namegenerator
@@ -98,3 +98,10 @@ Maybe ship binary packages for end-user commands:
 
  - prom2json could be useful (mentioned in the ITP), from the
    golang-github-prometheus-prom2json package.
+
+Investigate test suite failures (mostly golang-github-facebook-ent):
+
+ - Flat-out `exit 1` at the `go install` phase when `entc/integration`
+   is not excluded.
+ - Test failures that would be fatal if the failures of `dh_auto_test`
+   weren't ignored.
