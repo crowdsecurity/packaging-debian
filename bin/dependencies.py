@@ -45,6 +45,19 @@ def build_dependencies(upload_dir):
         "golang-github-mohae-deepcopy",
         "golang-github-go-playground-universal-translator",
     ]
+
+    rebuild_1 = [
+        "golang-github-enescakir-emoji",
+        "golang-github-antonmedv-expr",
+        "golang-github-jamiealquiza-tachymeter",
+        "golang-github-logrusorgru-grokky",
+        "golang-github-mohae-deepcopy",
+        "golang-github-appleboy-gofight",
+        "golang-github-go-playground-locales",
+        "golang-github-go-playground-assert-v2",
+        "golang-github-leodido-go-urn",
+    ]
+
     binaries = ['%s-dev' % x for x in sources]
     print('digraph {')
     print('  rankdir=LR;')
@@ -53,8 +66,10 @@ def build_dependencies(upload_dir):
         if y in binaries:
             print('  "%s" -> "%s"' % (x, re.sub(r'-dev$', '', y)))
     for x in sources:
-        if x in accepted:
+        if x in rebuild_1:
             print('  "%s" [fillcolor=green,style=filled];' % x)
+        elif x in accepted:
+            print('  "%s" [fillcolor=orange,style=filled];' % x)
     print('}')
 
 if __name__ == '__main__':
