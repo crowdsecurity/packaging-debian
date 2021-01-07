@@ -58,6 +58,10 @@ def build_dependencies(upload_dir):
         "golang-github-leodido-go-urn",
     ]
 
+    rebuild_2 = [
+        "golang-github-go-playground-universal-translator",
+    ]
+
     binaries = ['%s-dev' % x for x in sources]
     print('digraph {')
     print('  rankdir=LR;')
@@ -66,7 +70,7 @@ def build_dependencies(upload_dir):
         if y in binaries:
             print('  "%s" -> "%s"' % (x, re.sub(r'-dev$', '', y)))
     for x in sources:
-        if x in rebuild_1:
+        if x in rebuild_1 + rebuild_2:
             print('  "%s" [fillcolor=green,style=filled];' % x)
         elif x in accepted:
             print('  "%s" [fillcolor=orange,style=filled];' % x)
