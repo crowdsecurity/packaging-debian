@@ -62,7 +62,7 @@ If a specific package has no status set, assume POC.
     + go.mod has: github.com/go-playground/assert/v2
  - ACC: golang-github-go-playground-locales
     + This one is unversioned.
- - NEW: golang-github-go-playground-universal-translator
+ - ACC: golang-github-go-playground-universal-translator
     + This one is unversioned.
     + DEP: golang-github-go-playground-locales
  - ACC: golang-github-go-playground-validator(-v10)
