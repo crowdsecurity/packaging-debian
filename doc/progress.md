@@ -94,6 +94,11 @@ Maybe clean this up some more:
  - Actually, this should be solved by removing offending files
    altogether, see: https://github.com/Debian/dh-make-golang/issues/151
 
+Request removal of those packages, that aren't useful anymore:
+
+ - golang-gopkg-go-playground-validator.v8-dev
+ - golang-gopkg-go-playground-assert.v1-dev
+
 Maybe ship binary packages for end-user commands:
 
  - prom2json could be useful (mentioned in the ITP), from the
