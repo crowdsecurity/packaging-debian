@@ -56,8 +56,8 @@ If a specific package has no status set, assume POC.
     + DEP: golang-github-go-playground-validator(-v10)
     + Review requested on the list:
         https://lists.debian.org/debian-go/2020/12/msg00059.html
-    + Review is fine, currently waiting on a single package in NEW to
-      make validator installable: universal-translator.
+    + Review is fine, waiting for new build-deps to be rebuilt
+      (source-only) before uploading.
  - ACC: golang-github-go-playground-assert(-v2)
     + go.mod has: github.com/go-playground/assert/v2
  - ACC: golang-github-go-playground-locales
