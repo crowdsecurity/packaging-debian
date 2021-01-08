@@ -62,6 +62,10 @@ def build_dependencies(upload_dir):
         "golang-github-go-playground-universal-translator",
     ]
 
+    rebuild_3 = [
+        "golang-github-go-playground-validator-v10",
+    ]
+
     binaries = ['%s-dev' % x for x in sources]
     print('digraph {')
     print('  rankdir=LR;')
@@ -70,7 +74,7 @@ def build_dependencies(upload_dir):
         if y in binaries:
             print('  "%s" -> "%s"' % (x, re.sub(r'-dev$', '', y)))
     for x in sources:
-        if x in rebuild_1 + rebuild_2:
+        if x in rebuild_1 + rebuild_2 + rebuild_3:
             print('  "%s" [fillcolor=green,style=filled];' % x)
         elif x in accepted:
             print('  "%s" [fillcolor=orange,style=filled];' % x)
