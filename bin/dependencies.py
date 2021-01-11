@@ -78,6 +78,8 @@ def build_dependencies(upload_dir):
             print('  "%s" [fillcolor=green,style=filled];' % x)
         elif x in accepted:
             print('  "%s" [fillcolor=orange,style=filled];' % x)
+        else:
+            print('  "%s" [fillcolor=red,style=filled];' % x)
     print('}')
 
 if __name__ == '__main__':
