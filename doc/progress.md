@@ -110,3 +110,25 @@ Investigate test suite failures (mostly golang-github-facebook-ent):
    is not excluded.
  - Test failures that would be fatal if the failures of `dh_auto_test`
    weren't ignored.
+
+Open an issue against gin-gonic/gin about the `TestPathCleanMallocs`
+test that appears to be flaky, and propose the local patch. Already
+mentioned in:
+
+ - https://github.com/gin-gonic/gin/pull/2596
+
+Also seen in CI:
+
+ - https://ci.debian.net/data/autopkgtest/unstable/i386/g/golang-github-gin-gonic-gin/9553652/log.gz
+
+Excerpt:
+
+
+    === RUN   TestPathCleanMallocs
+        path_test.go:85:
+                Error Trace:    path_test.go:85
+                Error:          Not equal:
+                                expected: float64(265)
+                                actual  : int(0)
+                Test:           TestPathCleanMallocs
+    --- FAIL: TestPathCleanMallocs (0.01s)
