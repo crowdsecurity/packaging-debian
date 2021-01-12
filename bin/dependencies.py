@@ -60,6 +60,8 @@ def build_dependencies(upload_dir):
         "golang-github-go-playground-locales",
         "golang-github-go-playground-assert-v2",
         "golang-github-leodido-go-urn",
+        "golang-github-netflix-go-expect",
+        "golang-github-go-co-op-gocron",
     ]
 
     rebuild_2 = [
