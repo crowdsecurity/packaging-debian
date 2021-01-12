@@ -48,6 +48,7 @@ def build_dependencies(upload_dir):
         "golang-github-go-co-op-gocron",
         "golang-github-hinshun-vt10x",
         "golang-github-netflix-go-expect",
+        "golang-github-nxadm-tail",
     ]
 
     rebuild_1 = [
@@ -62,6 +63,7 @@ def build_dependencies(upload_dir):
         "golang-github-leodido-go-urn",
         "golang-github-netflix-go-expect",
         "golang-github-go-co-op-gocron",
+        "golang-github-nxadm-tail",
     ]
 
     rebuild_2 = [
