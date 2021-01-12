@@ -73,6 +73,7 @@ def build_dependencies(upload_dir):
 
     rebuild_3 = [
         "golang-github-go-playground-validator-v10",
+        "golang-github-alecaivazis-survey",
     ]
 
     binaries = ['%s-dev' % x for x in sources]
