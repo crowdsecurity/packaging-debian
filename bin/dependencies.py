@@ -44,6 +44,10 @@ def build_dependencies(upload_dir):
         "golang-github-logrusorgru-grokky",
         "golang-github-mohae-deepcopy",
         "golang-github-go-playground-universal-translator",
+        "golang-github-alecaivazis-survey",
+        "golang-github-go-co-op-gocron",
+        "golang-github-hinshun-vt10x",
+        "golang-github-netflix-go-expect",
     ]
 
     rebuild_1 = [
