@@ -49,6 +49,12 @@ def build_dependencies(upload_dir):
         "golang-github-hinshun-vt10x",
         "golang-github-netflix-go-expect",
         "golang-github-nxadm-tail",
+        "golang-github-appleboy-gin-jwt",
+        "golang-github-goombaio-namegenerator",
+        "golang-github-go-openapi-inflect",
+        "golang-github-prometheus-prom2json",
+        "golang-github-gin-gonic-gin",
+        "golang-github-facebook-ent",
     ]
 
     rebuild_1 = [
@@ -68,6 +74,8 @@ def build_dependencies(upload_dir):
         "golang-github-goombaio-namegenerator",
         "golang-github-go-openapi-inflect",
         "golang-github-prometheus-prom2json",
+        # source-uploaded from the start, existing package:
+        "golang-github-gin-gonic-gin",
     ]
 
     rebuild_2 = [
