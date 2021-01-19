@@ -81,7 +81,7 @@ def build_dependencies(upload_dir):
     rebuild_2 = [
         "golang-github-go-playground-universal-translator",
         "golang-github-hinshun-vt10x",
-#        "golang-github-facebook-ent",
+        "golang-github-facebook-ent",
     ]
 
     rebuild_3 = [
