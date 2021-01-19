@@ -64,11 +64,16 @@ def build_dependencies(upload_dir):
         "golang-github-netflix-go-expect",
         "golang-github-go-co-op-gocron",
         "golang-github-nxadm-tail",
+        "golang-github-appleboy-gin-jwt",
+        "golang-github-goombaio-namegenerator",
+        "golang-github-go-openapi-inflect",
+        "golang-github-prometheus-prom2json",
     ]
 
     rebuild_2 = [
         "golang-github-go-playground-universal-translator",
         "golang-github-hinshun-vt10x",
+#        "golang-github-facebook-ent",
     ]
 
     rebuild_3 = [
